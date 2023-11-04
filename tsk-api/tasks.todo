@@ -1,0 +1,42 @@
+Caching in URQL: urql does provide its own form of caching, but it's simpler than Apollo's. By default, urql uses a document cache that caches the results of queries without normalizing them. However, urql also offers a normalized cache exchange called @urql/exchange-graphcache. This normalized cache provides functionality somewhat closer to what Apollo offers, as it stores each object from your API separately and allows you to reference them by their unique identifiers. This means you can partially retrieve and update objects from cache in a more granular way, similar to what you might do with Apollo.
+
+Redux for State Management: While urql manages the network requests and caching of your GraphQL data, you can still use Redux for global application state management. This means that urql can be responsible for retrieving data, and Redux can help manage the state based on actions and events in your app. This separation of concerns keeps your data fetching logic and state management logic cleanly separated.
+
+https://app.any.do/myday
+
+✔ Install react-redux and dev tools @done (16/08/2023, 17:24:09)
+✔ Configure Redux @done (16/08/2023, 17:24:10)
+✔ Configure Redux devtools integration @done (16/08/2023, 17:30:03)
+✔ https://tailwind-elements.com/docs/react/ @done (16/08/2023, 17:33:55)
+
+https://github.com/CodelyTV/typescript-react_best_practices-vite_template
+
+https://github.com/KAROTT7/vite-plugin-react-views
+https://typicode.github.io/husky/
+https://mswjs.io/docs/getting-started/mocks/rest-api
+React Query for server state
+
+tsvite-react-redux (views, Axios+msw, Tailwind CSS, jest+rtl, husky, Rome)
+
+Command line version, independent Node.js/Electron app
+-----
+Good morning, Paul.
+Motivational quote of the day (allow custom)
+Today's Theme
+Drop here and work on it today!
+DATE: MON 14 August
+Local holiday" Day off for The Queen's Birthday
+Weather + location (click for forecast)
+Apply for Thai visa to collect in Vientiane (Clickable popup modal)
+    Category
+    Tags
+That spinning time allocator
+
+ToDo Modal:
+    Category
+    Tags
+    Datetime (calendar and pie link)
+    Start datetime
+    Deadline datetime
+    File(s)
+    Subtasks
